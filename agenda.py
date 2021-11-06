@@ -5,7 +5,6 @@ def menu():
     =========================================================    
                    PROJETO AGENDA EM PYTHON
     ========================================================= 
-    DEVELOPED BY: Mayckon
      MENU:
      
      [1] CADASTRAR COTATO
@@ -15,17 +14,21 @@ def menu():
      [5] SAIR
     =========================================================
     ESCOLHA UMA OPÇÃO ACIMA: ''')
+
         if opcao == '1':
-            cadastrarContato()
+             cadastrarContato()
         elif opcao == '2':
             listarContato()
         elif opcao == '3':
             deletarContato()
         elif opcao == '4':
-            buscarContatoPeloNome()
+             buscarContatoPeloNome()
+
         else:
-            sair()
-        voltarMenuPrincipal = input('Deseja volta ao menu principal? (s/n): ').lower()
+            print('ERRO VOLTE AO MENU PRINCIPAL')
+            voltarMenuPrincipal = input('Deseja volta ao menu principal? (s/n): ').lower()
+
+
 
 def cadastrarContato():
     idContato = input('Escolha o ID do contato: ')
