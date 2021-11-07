@@ -1,13 +1,16 @@
+import time
+
+
 def menu():
     voltarMenuPrincipal = 's'
     while voltarMenuPrincipal == 's':
-        opcao= input('''
+        opcao = input('''
     =========================================================    
                    PROJETO AGENDA EM PYTHON
     ========================================================= 
      MENU:
      
-     [1] CADASTRAR COTATO
+     [1] CADASTRAR CONTATO
      [2] LISTAR CONTATO
      [3] DELETAR CONTATO
      [4] BUSCAR CONTATO PELO NOME
@@ -16,18 +19,18 @@ def menu():
     ESCOLHA UMA OPÇÃO ACIMA: ''')
 
         if opcao == '1':
-             cadastrarContato()
+            cadastrarContato()
         elif opcao == '2':
             listarContato()
         elif opcao == '3':
             deletarContato()
         elif opcao == '4':
-             buscarContatoPeloNome()
-
+            buscarContatoPeloNome()
+        elif opcao == '5':
+            sair()
         else:
             print('ERRO VOLTE AO MENU PRINCIPAL')
             voltarMenuPrincipal = input('Deseja volta ao menu principal? (s/n): ').lower()
-
 
 
 def cadastrarContato():
@@ -46,10 +49,11 @@ def cadastrarContato():
 
 
 def listarContato():
-    agenda = open('agenda.txt','r')
+    agenda = open('agenda.txt', 'r')
     for contato in agenda:
         print(contato)
     agenda.close()
+
 
 def deletarContato():
     nomeDeletado = input('Digite um nome a ser deletado: ').lower()
@@ -61,25 +65,31 @@ def deletarContato():
     for i in range(0, len(aux)):
         if nomeDeletado not in aux[i].lower():
             aux2.append(aux[i])
-    agenda = open('agenda.txt','w')
+    agenda = open('agenda.txt', 'w')
     for i in aux2:
         agenda.write(i)
         print(f'CONTATO DELETADO COM SUCESSO !!!')
     listarContato()
 
+
 def buscarContatoPeloNome():
     nome = input(f'digite o nome a ser procurado: ').upper()
     agenda = open('agenda.txt', 'r')
     for contato in agenda:
-       if nome in contato.split(';')[1].upper():
-        print(contato)
-       else:
-           print('NÃO ENCONTRADO!')
+        if nome in contato.split(';')[1].upper():
+            print(contato)
     agenda.close()
 
+
 def sair():
+    print('FINALIZANDO O PROGRAMA...')
+    time.sleep(5)
+    print('VOLTE SEMPRE! ')
     exit()
+
 
 def main():
     menu()
+
+
 main()
