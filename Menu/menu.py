@@ -38,6 +38,7 @@ def cadastrarContato():
     nome = input('Escreva o nome do contato: ')
     telefone = input('Esceva o número do contato: ')
     email = input('Escreva o email do contato: ')
+    
     try:
         agenda = open('agenda.txt', 'a')
         dados = f'{idContato};{nome};{telefone};{email}\n'
@@ -45,7 +46,7 @@ def cadastrarContato():
         agenda.close()
         print(f'Contato gravado com sucesso !!!')
     except:
-        print('ERRO na garavação do contato')
+        print('ERRO NA GRAVAÇÂO DO CONTATO')
 
 
 def listarContato():
