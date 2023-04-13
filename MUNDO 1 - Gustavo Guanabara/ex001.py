@@ -1,4 +1,4 @@
-print('Olá, Mundo)
+print('Olá, Mundo')
 
 #trabalhando com string
 msg = 'Olá, Mundo 2'
