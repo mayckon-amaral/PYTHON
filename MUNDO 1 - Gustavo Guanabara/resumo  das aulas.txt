@@ -1,0 +1,2 @@
+desafio 001 - Faça um programa que escreva "Olá, Mundo" na tela.
+desafio 002 - Faça um programa que leia o nome de uma pessoa e mostre uma mensagem de boas-vindas.
