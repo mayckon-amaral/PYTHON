@@ -1,3 +1,10 @@
 desafio 001 - Faça um programa que escreva "Olá, Mundo" na tela.
 desafio 002 - Faça um programa que leia o nome de uma pessoa e mostre uma mensagem de boas-vindas.
 Desafio 003 - Escreva um programa que leia dois números e mostre a soma entre eles.
+Desafio 004 - Faça um programa que leia algo do teclado e mostre na tela o seu tipo primitivo e todas as informações sobre ele.
+Desafio 005 - Faça um programa que leia um número inteiro e mostre na tela o seu sucessor e seu antecessor.
+Desafio 006 - Crie um algoritmo que leia um número e mostre o dobro, triplo e a raiz quadrada.
+Desafio 007 - Desenvolva um prograna que leia duas nota de um aluno, calcule e mostre a sua média.
+Desafio 008 - Faça um programa que leia um valor em metros e o exiba convertido em centímetros e milímetros.
+Desafio 009 - Faça um programa que leia um número inteiro qualquer e mostre na tela a sua tabuada.
+Desafio 010 - Crie um programa que leia quanto dinheiro uma pessoa tem na carteira e mostre quantos Dólares ela pode comprar. Considere US$ 1,00 = R$ 3,27.
