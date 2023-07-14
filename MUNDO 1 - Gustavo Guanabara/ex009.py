@@ -1,3 +1,5 @@
+#Tabuada
+
 num = int(input('Digite um número: '))
 print('-' * 17)
 print('{} X {:2} = {}'.format(num, 1, num * 1))
