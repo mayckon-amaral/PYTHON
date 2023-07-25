@@ -27,3 +27,4 @@ Desafio 023 - Faça um programa que leia um número de 0 a 9999 e mostre na tela
 Desafio 024 - Crie um programa que leia o nome de uma cidade diga se ela começa ou não com o nome “SANTO”.
 Desafio 025 - Crie um programa que leia o nome de uma pessoa e diga se ela tem “SILVA” no nome.
 Desafio 026 - Faça um programa que leia uma frase pelo teclado e mostre quantas vezes aparece a letra “A”, em que posição ela aparece a primeira vez e em que posição ela aparece a última vez.
+Desafio 027 - Faça um programa que leia o nome completo de uma pessoa, mostrando em seguida o primeiro e o último nome separadamente.
