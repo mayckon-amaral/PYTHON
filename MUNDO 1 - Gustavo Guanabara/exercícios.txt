@@ -24,3 +24,4 @@ Desafio 022 - Crie um programa que leia o nome completo de uma pessoa e mostre:
 – Quantas letras ao todo (sem considerar espaços).
 – Quantas letras tem o primeiro nome.
 Desafio 023 - Faça um programa que leia um número de 0 a 9999 e mostre na tela cada um dos dígitos separados.
+Desafio 024 - Crie um programa que leia o nome de uma cidade diga se ela começa ou não com o nome “SANTO”.
