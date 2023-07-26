@@ -35,3 +35,4 @@ Desafio 031 - Desenvolva um programa que pergunte a distância de uma viagem em 
 Desafio 032 - Faça um programa que leia um ano qualquer e mostre se ele é bissexto.
 Desafio 033 - Faça um programa que leia três números e mostre qual é o maior e qual é o menor.
 Desafio 034 - Escreva um programa que pergunte o salário de um funcionário e calcule o valor do seu aumento. Para salários superiores a R$1250,00, calcule um aumento de 10%. Para os inferiores ou iguais, o aumento é de 15%.
+Desafio 035 - Desenvolva um programa que leia o comprimento de três retas e diga ao usuário se elas podem ou não formar um triângulo.
